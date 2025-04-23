@@ -10,8 +10,8 @@
     "preview": "vite preview",
     "lint": "eslint . --fix",
     "test": "vitest",  
-    "vercel-build": "npm run build",  
-    "deploy": "gh-pages -d dist"  
+    "vercel-build": "vite build --mode production",  
+    "deploy": "gh-pages -d dist" 
   },
   "dependencies": {
     "framer-motion": "^11.0.8",
